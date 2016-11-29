@@ -5,6 +5,7 @@
 #include <string>
 #include <algorithm>
 #include <algorithm>
+#include <stdio.h>
 using namespace std;
 Source::Source()
 {
@@ -19,12 +20,25 @@ bool errorcheck(Piece * [][8], std::string, int, int, int, int,int ,int & );
 bool move(std::string, std::string, int &, int &, int &, int &);
 Stack stack;
 Memory * Undor = new Memory;
-int main()
-{
-	char input = NULL;
+int main(int argc, string argv[])
+{ 
+	
+	char input = NULL; 
+	string Filepath1 ;
 	bool check = true;
 	cout << "Do you want to play a game of chess? (S/E)" << endl;
+	
 	cin >> input;
+	int boo = argc;
+	if (argc == 2)
+	{
+		    
+
+		cin >> Filepath1;
+	}
+	
+
+	
 	Board * run = new Board;
 
 	while (check == true)
