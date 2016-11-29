@@ -8,11 +8,14 @@ public:
 	Rook();
 	~Rook();
 
-	enum Color
+	Color c;
+	/*enum Color
 	{
 		white, black
-	};
+	};*/
+	bool col;
 	bool move();
+	std::string geticon();
 	std::string getname();
 
 

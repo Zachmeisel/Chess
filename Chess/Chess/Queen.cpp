@@ -18,5 +18,10 @@ std::string Queen::getname()
 
 bool Queen::move()
 {
+	return true;
+}
+std::string Queen::geticon()
+{
+	return "Q";
 
 }

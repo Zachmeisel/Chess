@@ -14,6 +14,7 @@ public:
 	};
 	bool move();
 	std::string getname();
+	std::string geticon();
 
 	
 };

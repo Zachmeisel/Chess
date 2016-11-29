@@ -18,5 +18,10 @@ std::string Bishop::getname()
 
 bool Bishop::move()
 {
+	return true;
+}
+std::string Bishop::geticon()
+{
+	return "B";
 
 }

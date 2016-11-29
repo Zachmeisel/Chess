@@ -18,5 +18,10 @@ std::string King::getname()
 
 bool King::move()
 {
+	return true;
+}
+std::string King::geticon()
+{
+	return "K";
 
 }

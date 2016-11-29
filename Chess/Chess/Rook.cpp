@@ -18,5 +18,10 @@ std::string Rook::getname()
 
 bool Rook::move()
 {
+	return true;
+}
+std::string Rook::geticon()
+{
+	return "R";
 
 }
